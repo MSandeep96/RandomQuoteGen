@@ -3,10 +3,6 @@
 }
 
 
-.wrapper{
-	min-height: 100%;
-}
-
 .carbon{
 	background:
 	radial-gradient(black 15%, transparent 16%) 0 0,
@@ -29,6 +25,16 @@
 	margin-top: 5%;
 }
 
+.sign{
+	margin-top: 2%;
+	font-family: 'Pacifico',cursive;
+}
+
+.sign a{
+	text-decoration: underline;
+	color: white;
+}
+
 .quot_holder_box{
 	position: relative;
 	float: left;
@@ -42,16 +48,20 @@
 }
 
 .btn_sty{
-	
+	display: block;
+	padding: 8px;
+	border-radius: 4px;
+	width: 25%;
+	height: auto;
+	background-color: #222;
 }
 
-.fetch_new{
-	display: block;
-
+.btn_sty:focus{
+	outline:none;
 }
 
 .post_to_twit{
-	display: block;
+	margin-top: 5%;
 }
 
 .new_quot_holder{
